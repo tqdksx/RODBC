@@ -63,7 +63,7 @@ __declspec(dllimport) window RConsole;
 
 #define my_min(a,b) ((a < b)?a:b)
 
-#define COLMAX 256
+#define COLMAX 2560  /*256 */
 #ifndef SQL_NO_DATA
 # define SQL_NO_DATA_FOUND /* for iODBC */
 #endif
